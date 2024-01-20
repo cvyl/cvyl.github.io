@@ -114,9 +114,12 @@ navbar:
         Friends: /friends
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
+        GitHub Sponsor:
             icon: fab fa-github
-            url: https://github.com/cvyl
+            url: https://github.com/sponsors/cvyl
+        Ethereum:
+            icon: fab fa-ethereum
+            url: https://etherscan.io/address/0x1d3553BaeB031913bE108a814FF9a6091A63107D
 # Page footer configurations
 footer:
     # Copyright text
