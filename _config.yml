@@ -1,11 +1,11 @@
-title: Hexo
-subtitle: ''
-description: ''
-keywords: null
-author: John Doe
+title: cvyl's Blog
+subtitle: 'My little diary'
+description: 'Personal blog posts and notes'
+keywords: Notes AI Programming Philosophy lgbtq
+author: cvyl
 language: en
-timezone: ''
-url: http://example.com
+timezone: 'Europe/Amsterdam'
+url: https://cvyl.me
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -33,12 +33,14 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
+  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
