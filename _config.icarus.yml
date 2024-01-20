@@ -228,7 +228,7 @@ widgets:
           #      icon: fab fa-dribbble
            #     url: https://dribbble.com
             Telegram:
-                icon: fas fa-telegram
+                icon: fab fa-telegram
                 url: https://t.me/menhera7
     # Table of contents widget configurations
     -
