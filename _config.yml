@@ -9,8 +9,8 @@ url: https://cvyl.me
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
-  trailing_index: true
-  trailing_html: true
+  trailing_index: false
+  trailing_html: false
 source_dir: source
 public_dir: public
 tag_dir: tags

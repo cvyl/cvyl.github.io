@@ -1,9 +1,10 @@
 ---
 title: Exploring the Decentralized Web with IPFS
 date: 2024-01-20 22:56:54
-tags: [web3, ipfs]
-categories: [decentralized-web, article]
+tags: [web3, ipfs, privacy]
+categories: Article
 comment: false
+lang: en
 ---
 
 ## Introduction

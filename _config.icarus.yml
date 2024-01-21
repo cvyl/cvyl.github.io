@@ -110,8 +110,8 @@ navbar:
        # Categories: /categories
         Tags: /tags
         Projects: /projects
-        About: /about
         Friends: /friends
+        About: /about
     # Links to be shown on the right of the navigation bar
     links:
         GitHub Sponsor:
