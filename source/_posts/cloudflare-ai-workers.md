@@ -73,6 +73,6 @@ export default {
 };
 ```
 
-## Explore CloudFlare's AI: Check Out the AI Chat App!
+## Proof of concept AI Worker
 
 To see CloudFlare's AI Workers in action, check out my AI Chat App. It's a proof of concept that uses CloudFlare's AI, providing an eye into the capabilities and potential applications. Try it here: [ai.cvyl.me](https://ai.cvyl.me/).
