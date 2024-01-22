@@ -856,7 +856,7 @@ body[data-v-779d22a7] {
   opacity:1
 }
 .search[data-v-779d22a7] {
-  width:100%;
+  width:55%;
   margin-bottom:20px;
   padding:.5em 1em;
   box-sizing:border-box;
@@ -865,7 +865,6 @@ body[data-v-779d22a7] {
   background:#fff;
   box-shadow:var(--tgb-shadow);
   overflow:hidden;
-  margin-left: -17em;
 }
 .search input[data-v-779d22a7] {
   flex:1;
