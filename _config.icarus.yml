@@ -100,7 +100,7 @@ head:
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss: 
+    rss: https://cvyl.me/blog-feed/exports/menhera7/atom.xml
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -110,6 +110,7 @@ navbar:
        # Categories: /categories
         Tags: /tags
         Projects: /projects
+        Life: /life
         Friends: /friends
         About: /about
     # Links to be shown on the right of the navigation bar
@@ -230,6 +231,9 @@ widgets:
             Telegram:
                 icon: fab fa-telegram
                 url: https://t.me/menhera7
+            Life RSS:
+                icon: fas fa-rss
+                url: https://cvyl.me/blog-feed/exports/menhera7/atom.xml
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
