@@ -51,19 +51,19 @@ head:
         image: ''
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name: "Mikka's Blog"
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
         author: Mikka
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 
+        description: "Articles about programming, life, and more."
         # Twitter card type (twitter:card)
         twitter_card: ''
         # Twitter ID (twitter:creator)
         twitter_id: ''
         # Twitter Site (twitter:site)
-        twitter_site: 
+        twitter_site: https://cvyl.me
         # Google+ profile link (deprecated)
         google_plus: 
         # Facebook admin ID
@@ -75,16 +75,16 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 
+        title: "Mikka's Blog"
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: 
+        description: "Articles about programming, life, and more."
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: ''
+        url: https://cvyl.me
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: Mikka
         # Page publisher (optional)
         # You should leave this blank for most of the time
         publisher: 
