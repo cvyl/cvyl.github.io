@@ -510,7 +510,7 @@ body[data-v-95a034ba] {
 .post .forward[data-v-95a034ba],
 .post .forward a[data-v-95a034ba],
 .post .reply-to[data-v-95a034ba] {
-  color:#ab4343;
+  color:#7243ab;
   font-weight:700
 }
 .post .reply[data-v-95a034ba] {
@@ -528,7 +528,7 @@ body[data-v-95a034ba] {
 }
 .post .reply .mtext[data-v-95a034ba] {
   flex-grow:1;
-  color:#a68659d6;
+  color:#603b71d6;
   display:-webkit-box;
   -webkit-box-orient:vertical;
   overflow:hidden
@@ -540,9 +540,9 @@ body[data-v-95a034ba] {
 }
 .post .reply[data-v-95a034ba]:before {
   content:" ";
-  border:2px solid #ba8746;
+  border:2px solid #9646ba;
   border-radius:2px;
-  background:#70512a
+  background:#392a70;
 }
 .post .images.has-head[data-v-95a034ba] {
   margin:0 -20px 10px
