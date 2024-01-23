@@ -5,6 +5,7 @@ draft: false
 tags: [lgbtq, transgender, society]
 description: "Exploring the impact of political stances on the Dutch transgender community."
 cover: "/gallery/lgbtflag.jpg"
+categories: Article
 comment : false
 ---
 
