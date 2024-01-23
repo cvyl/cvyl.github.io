@@ -1,7 +1,7 @@
 ---
 title: "Suicidal ideation: Choosing faith and departure"
 date: 2024-01-18T23:49:01+01:00
-tags: [lgbtq, vent, society, suicide]
+tags: [lgbtq, vent, society, suicide, transgender]
 category: Life
 cover: "/gallery/haj.jpg"
 comment : false

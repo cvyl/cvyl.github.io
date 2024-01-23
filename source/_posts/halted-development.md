@@ -3,6 +3,7 @@ title: "Harmony Within Us Development Update"
 date: 2023-11-21T12:22:37+01:00
 tags: [lgbtq, programming, hwu]
 description: "Development temporarily paused for mental health focus."
+category: Life
 comment : false
 ---
 
