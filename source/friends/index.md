@@ -21,6 +21,10 @@ We've been friends for over a few years, I am sorry that I haven't been talking 
 
 Thank you for helping understand aspects and consequences of things in life.
 
+## [Scarlett](https://github.com/Kayicide)
+
+We haven't been friends for a long time, but our friendship looks promising.
+
 ## [Evelyn](https://twitter.com/evelynatorpriv)
 
 You're a sweet but busy person in life.
