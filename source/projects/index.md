@@ -48,3 +48,9 @@ Official homepage is at [harmony-within.us](https://harmony-within.us) soon!
 ### CloudFlare AI chat
 
 A small project using CloudFlare's new AI workers. A proof on concept demo can be found at [ai.cvyl.me](https://ai.cvyl.me).
+
+## Website Projects
+
+### Terminal Simulator
+
+A simple terminal simulator that replicates the DOS/UNIX style terminal with commands and a boot-up screen. Visit it at [cvyl.me/terminal](https://cvyl.me/terminal).
