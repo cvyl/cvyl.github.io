@@ -20,7 +20,7 @@
 
 <!-- Template setup (Paste your data url here) -->
 <div id="tg-blog-app">
-    <tg-blog posts-url="https://cvyl.me/blog-feed/exports/menhera7/posts.json"></tg-blog>
+    <tg-blog posts-url="https://raw.githubusercontent.com/cvyl/blog-feed/gh-pages/exports/menhera7/posts.json"></tg-blog>
 </div>
 
 <!-- Vue js setup -->
