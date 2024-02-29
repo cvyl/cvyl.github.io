@@ -4,7 +4,7 @@
 <!-- Import Libraries -->
 <script src="https://unpkg.com/vue@3"></script>
 <script src="https://unpkg.com/tg-blog"></script>
-<link rel="stylesheet" href="../css/feed.css">
+<!-- <link rel="stylesheet" href="../css/feed.css"> -->
 
 <!-- Styles & Patches -->
 <style>
