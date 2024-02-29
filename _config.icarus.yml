@@ -219,10 +219,10 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: https://github.com/cvyl
-            YouTube:
-                icon: fab fa-youtube
-                url: https://youtube.com/@qq-777
-            Twitter:
+           # YouTube:
+         #       icon: fab fa-youtube
+         #       url: https://youtube.com/@qq-777
+            Mastodon:
                 icon: fab fa-mastodon
                 url: https://tech.lgbt/@777
          #   Dribbble:
