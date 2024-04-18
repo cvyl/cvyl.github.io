@@ -44,11 +44,11 @@ Kind woman that is my virtual grandma.
 ## [ozoi](https://twitter.com/ozoicat)
 
 We don't talk often but you are kind and very cool.
-<!--
+
 ## [Anon](https://www.roblox.com/users/318134745/profile)
 
 Although I cannot remember exactly how we've met, I am glad to be friends with you and talk about things going on in life.
--->
+
 ## [@Fluoridebrain](https://twitter.com/Fluoridebrain)
 
 Skilled artist that makes cute and relatable art. Also liked the conversations we've had in the past.
