@@ -1,10 +1,10 @@
 <!-- Click [here](feed.cvyl.me) to view the webpage in full size. Below is temporary. -->
 {% raw %}
 
-<!-- Import Libraries -->
-<script src="https://unpkg.com/vue@3"></script>
-<script src="https://unpkg.com/tg-blog"></script>
-<!-- <link rel="stylesheet" href="../css/feed.css"> -->
+  <!-- Import Libraries -->
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="https://unpkg.com/tg-blog"></script>
+  <link rel="stylesheet" href="https://unpkg.com/tg-blog/dist/style.css">
 
 <!-- Styles & Patches -->
 <style>
@@ -16,6 +16,15 @@
     /* Icalm Fix: overflow-x: hidden breaks infinite scroll */
     .container { overflow-x: unset !important; }
     body { overflow-x: unset !important; }
+    .post, .tgb-card, .search {
+          background: #fff0ff !important;
+    }
+    .id, .date, .search, input, ::placeholder {
+          color: #f7bdeb !important;
+    }
+    .tg-blog {
+          color: #755c76 !important;
+    }
 </style>
 
 <!-- Template setup (Paste your data url here) -->

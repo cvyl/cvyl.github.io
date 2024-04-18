@@ -5,13 +5,9 @@ comment: false
 
 # Personal friendships
 
-## [Kamil](https://placek.xyz/)
-
-Knows how to use wires and such.【Electrical Engineer】
-
 ## [Kvazar](https://twitter.com/KvazarOverture)
 
-Gamer-man from the Yabujin-country.
+Good Friend from Lithuania
 
 ## [Amadeo](#NONE)
 
@@ -23,7 +19,7 @@ Thank you for helping understand aspects and consequences of things in life.
 
 ## [Scarlett](https://github.com/Kayicide)
 
-We haven't been friends for a long time, but our friendship looks promising.
+We seem te share similar interests and talking casually is fun.
 
 ## [Evelyn](https://twitter.com/evelynatorpriv)
 
