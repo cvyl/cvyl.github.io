@@ -44,7 +44,11 @@ Kind woman that is my virtual grandma.
 ## [ozoi](https://twitter.com/ozoicat)
 
 We don't talk often but you are kind and very cool.
+<!--
+## [Anon](https://www.roblox.com/users/318134745/profile)
 
+Although I cannot remember exactly how we've met, I am glad to be friends with you and talk about things going on in life.
+-->
 ## [@Fluoridebrain](https://twitter.com/Fluoridebrain)
 
 Skilled artist that makes cute and relatable art. Also liked the conversations we've had in the past.
@@ -64,6 +68,10 @@ A person to talk about various topics with.
 ## [revive4770](https://twitter.com/revive4770)
 
 We used to talk often, but things went wrong along the way.
+
+## [Jara](https://github.com/jarad2)
+
+We seem to share a similar fate and interest in hobbies and sports.
 
 ## [spooks](#none)
 
