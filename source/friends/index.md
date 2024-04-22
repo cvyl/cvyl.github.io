@@ -17,6 +17,10 @@ We've been friends for over a few years, I am sorry that I haven't been talking 
 
 Thank you for helping understand aspects and consequences of things in life.
 
+## [ida](https://steamcommunity.com/id/3ruy8374fh)
+
+Met you via Steam and we ended up becoming good friends, glad I found you.
+
 ## [Scarlett](https://github.com/Kayicide)
 
 We seem te share similar interests and talking casually is fun.
