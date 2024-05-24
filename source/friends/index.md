@@ -89,6 +89,10 @@ Your server ShimaTent has been nice time. It used to be active but we all have o
 
 We don't talk often but I really hope you're doing better in life.
 
+## [Bezel](#none)
+
+We used to talk for a bit more than a year, but we slowly faded away from eachother due to not agreeing with eachother. Only for months later for me to do a complete 180 and agree. But I think you have a lot of personal struggles you need time for the figure out. I still love you as a friend nontheless.
+
 ## [crystal](https://crystal.lgbt.sh)
 
 Kind person I found via webrings online and made first contact via a guestbook. Later we moved to emails and then Discord.
@@ -106,12 +110,6 @@ We used to talk about serious topics, although not much. I hope you're in a bett
 We talked on Twitter every so often and I remember your shock when you found out our age-gap haha.
 
 *Last message: 2022-1?-??*
-
-## [Bezel](#none)
-
-We used to talk for a bit more than a year, but we slowly faded away from eachother due to not agreeing with eachother. Only for months later for me to do a complete 180 and agree. But I think you have a lot of personal struggles you need time for the figure out. I still love you as a friend nontheless.
-
-*Last message: 2023-10-24*
 
 # Communities
 
