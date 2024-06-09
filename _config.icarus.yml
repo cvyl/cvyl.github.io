@@ -39,29 +39,29 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: cvyl's blog
+       # title: cvyl's blog
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
-        type: blog
+     #   type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: https://cvyl.me
+       # url: https://cvyl.me
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: ''
+       # image: ''
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: "Mikka's Blog"
+       # site_name: "Mikka's Blog"
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: Mikka
+      #  author: Mikka
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: "Articles about programming, life, and more."
+       # description: "Articles about programming, life, and more."
         # Twitter card type (twitter:card)
-        twitter_card: ''
+      #  twitter_card: ''
         # Twitter ID (twitter:creator)
-        twitter_id: ''
+       # twitter_id: ''
         # Twitter Site (twitter:site)
         twitter_site: https://cvyl.me
         # Google+ profile link (deprecated)
