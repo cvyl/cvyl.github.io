@@ -1,7 +1,8 @@
 ---
 title: "A small project: Short.moe"
 comment: false
-date: 2024-01-21 19:40:37
+date: 2024-06-09 23:28:32
+cover: "https://repository-images.githubusercontent.com/812269186/2a8e675e-0e9c-40e6-ad57-8cc9f82e4053"
 tags: [privacy, programming]
 category: Article
 ---
