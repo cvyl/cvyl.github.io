@@ -137,9 +137,9 @@ footer:
         GitHub:
             icon: fab fa-github
             url: https://github.com/cyvl
-        萌ICP备20242002号:
+        萌ICP备20244300号:
             icon: fas fa-magnifying-glass
-            url: https://icp.gov.moe/?keyword=20242002
+            url: https://icp.gov.moe/?keyword=20244300
 # Article related configurations
 article:
     # Code highlight settings
