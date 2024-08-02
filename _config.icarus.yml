@@ -132,7 +132,7 @@ footer:
             icon: fab fa-creative-commons
             url: https://creativecommons.org/
         Attribution 4.0 International:
-            icon: fab fa-creative-commons-by-nd
+            icon: fab fa-creative-commons-nd
             url: https://creativecommons.org/licenses/by-nd/4.0/
         GitHub:
             icon: fab fa-github
