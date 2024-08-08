@@ -48,7 +48,7 @@ head:
        # url: https://cvyl.me
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: ''
+        #image: ''
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
        # site_name: "Mikka's Blog"
@@ -123,7 +123,7 @@ navbar:
             url: https://etherscan.io/address/0x1d3553BaeB031913bE108a814FF9a6091A63107D
 # Page footer configurations
 footer:
-    copyright: Mikka (cvyl) © 2024
+    copyright: 萌ICP备20244300号 #needed for launching subdomains in China
     # Copyright text
     #copyright: © 2024
     # Links to be shown on the right of the footer section
