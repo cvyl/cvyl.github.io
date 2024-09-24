@@ -110,26 +110,3 @@ We used to talk about serious topics, although not much. I hope you're in a bett
 We talked on Twitter every so often and I remember your shock when you found out our age-gap haha.
 
 *Last message: 2022-1?-??*
-
-# Communities
-
-## MtF.wiki
-
-[MtF.wiki](https://mtf.wiki/en) is a website made by Project Trans ([project-trans.org](https://project-trans.org/)) for transgender indivuals seeking guidance.
-
-## Queering the map
-
-Queering the map ([queeringthemap.com](https://www.queeringthemap.com/)) is a website where you can drop down pins with your own text on a Google-Map like interface to share your queer experiences. This can be anything from simple dates to just coming out.
-This map is important to remember that everywhere in this world, queer people exist. And that it's not just a select few parts on the planet.
-
-## Anti-Dysphoria
-
-Anti-Dysphoria ([antidysphoria.carrd.co](https://antidysphoria.carrd.co/)) is a cute website to easy one's anxiety with dysphoria.
-
-## One Among Us
-
-One Among Us ([one-among.us](https://one-among.us/)) is a memorial website for transgender people and allies that have since moved on from life.
-
-## 2345.LGBT
-
-2345.LGBT ([2345.lgbt](https://2345.lgbt/en/)) is a hub for transgender individuals to navigate to websites related to transitoning.
