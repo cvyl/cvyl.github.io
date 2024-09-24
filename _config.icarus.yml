@@ -111,6 +111,7 @@ navbar:
         Tags: /tags
         Projects: /projects
         Life: /life
+        Navigation: /nav
         Friends: /friends
         About: /about
     # Links to be shown on the right of the navigation bar
