@@ -1,0 +1,142 @@
+[
+  {
+    "title": "学习汉语 - Chinese Learning",
+    "items": [
+      {
+        "icon": "https://g.csdnimg.cn/static/logo/favicon32.ico",
+        "title": "CSDN",
+        "desc": "专业开发者社区",
+        "link": "https://www.csdn.net/?ydreferer=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnLw%3D%3D"
+      },
+      {
+        "icon": "https://www.confuciusgroningen.nl/static/img/favicons/favicon-32x32.png",
+        "title": "HSK/HSKK Test",
+        "desc": "Groningen Confucius Institute - HSK/HSKK Test",
+        "link": "https://www.confuciusgroningen.nl/hskhskk-test"
+      },
+      {
+        "icon": "https://www.chinesetest.cn/favicon.ico",
+        "title": "考试服务网",
+        "desc": "Chinese test service website",
+        "link": "https://www.chinesetest.cn/test-centers"
+      },
+      {
+        "icon": "https://goeastmandarin.com/wp-content/uploads/2019/04/favicon.ico",
+        "title": "GoEast Mandarin",
+        "desc": "Online and in-person Chinese classes",
+        "link": "https://goeastmandarin.com/"
+      }
+    ]
+  },
+  {
+    "title": "编程学习 - Programming Resources",
+    "items": [
+      {
+        "icon": "https://www.tsdev.cn/favicon.ico",
+        "title": "5分钟了解 TypeScript",
+        "desc": "TypeScript 中文手册",
+        "link": "https://www.tsdev.cn/tutorials/typescript-in-5-minutes.html"
+      },
+      {
+        "icon": "",
+        "title": "Learn Next.js 中文教程",
+        "desc": "页面之间导航",
+        "link": "https://qufei1993.github.io/nextjs-learn-cn/chapter1"
+      }
+    ]
+  },
+  {
+    "title": "日语学习 - Japanese Learning Resources",
+    "items": [
+      {
+        "icon": "https://ssl.gstatic.com/docs/spreadsheets/spreadsheets_2023q4.ico",
+        "title": "Migaku日本語",
+        "desc": "Google Spreadsheets with resources for learning Japanese",
+        "link": "https://docs.google.com/spreadsheets/d/1O5ZtAMPoMA8cl15oSc_E3LBODEKhC2-fmTKwoSiHaTk/edit#gid=2089349054"
+      },
+      {
+        "icon": "https://djtguide.github.io/favicon.ico",
+        "title": "DJT日本語",
+        "desc": "Guide to learning Japanese",
+        "link": "https://djtguide.github.io/"
+      },
+      {
+        "icon": "https://ssl.gstatic.com/docs/documents/images/kix-favicon-2023q4.ico",
+        "title": "JP Media List",
+        "desc": "Google Docs list of beginner Japanese media",
+        "link": "https://docs.google.com/document/d/1KnyyDt7jimEz-dgeMSKymRaT2r3QKBPm9AzqZ6oUWAs/pub"
+      },
+      {
+        "icon": "https://jpdb.io/static/533228467534.png",
+        "title": "Visual Novel Difficulty List - jpdb",
+        "desc": "List of visual novels ranked by difficulty",
+        "link": "https://jpdb.io/visual-novel-difficulty-list"
+      },
+      {
+        "icon": "https://ssl.gstatic.com/docs/documents/images/kix-favicon-2023q4.ico",
+        "title": "Refold Unofficial Japanese Guide",
+        "desc": "Comprehensive guide to learning Japanese",
+        "link": "https://docs.google.com/document/u/1/d/e/2PACX-1vRTJ22UiHpPaafBlY2vNxQr1ROjq1iFp8_3rlVPYFqf3Se316Vf4Ucw2fljzDA8PPVqyMuWqf-t70s5/pub#h.wdir699q53g4"
+      },
+      {
+        "icon": "",
+        "title": "Nihongoresources",
+        "desc": "Comprehensive Japanese learning site",
+        "link": "http://redesign.nihongoresources.com/lessons?chapter=lesson_1"
+      }
+    ]
+  },
+  {
+    "title": "跨性别资源 - Transgender Resources",
+    "items": [
+      {
+        "icon": "",
+        "title": "Easing Dysphoria!",
+        "desc": "Advice for easing gender dysphoria",
+        "link": "https://antidysphoria.carrd.co/"
+      },
+      {
+        "icon": "https://turn-me-into-a-girl.com/favicon.ico",
+        "title": "Turn me into a girl",
+        "desc": "Cute website for transfeminine people",
+        "link": "https://turn-me-into-a-girl.com/"
+      },
+      {
+        "icon": "https://mangadex.org/favicon.svg",
+        "title": "オレが私になるまで",
+        "desc": "Manga about transitioning",
+        "link": "https://mangadex.org/title/a781de8e-0935-45bd-bc33-cbc76ea8c6f9/ore-ga-watashi-ni-naru-made"
+      },
+      {
+        "icon": "",
+        "title": "TransChat",
+        "desc": "Advice for transgender people",
+        "link": "https://trans.chat/"
+      },
+      {
+        "icon": "https://transfemscience.org/apple-touch-icon.png",
+        "title": "Transfeminine Science",
+        "desc": "Information on hormone therapy for transfeminine people.",
+        "link": "https://transfemscience.org/"
+      },
+      {
+        "icon": "https://styles.redditmedia.com/t5_2r4b9/styles/communityIcon_lblrccmhjnq31.png",
+        "title": "r/asktransgender",
+        "desc": "Reddit community",
+        "link": "https://www.reddit.com/r/asktransgender/"
+      },
+      {
+        "icon": "https://2345.lgbt/favicon.png",
+        "title": "2345.LGBT",
+        "desc": "LGBTQ+ resources",
+        "link": "https://2345.lgbt/"
+      },
+      {
+        "icon": "https://www.queeringthemap.com/icon.svg",
+        "title": "Queering the map",
+        "desc": "Map of LGBTQ+ experiences",
+        "link": "https://www.queeringthemap.com/"
+      }
+    ]
+  }
+]
