@@ -1,3 +1,9 @@
+---
+title: "Life Feed"
+description: "Webpage displaying Mikka's Feed"
+comment: false
+---
+
 <!-- Click [here](feed.cvyl.me) to view the webpage in full size. Below is temporary. -->
 {% raw %}
 

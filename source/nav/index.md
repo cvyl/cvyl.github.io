@@ -1,3 +1,9 @@
+---
+title: Navigation Page
+description: A dynamic navigation page for useful links.
+comment: false
+---
+
 <!-- Load Vue and Navigation Data -->
 {% raw %}
 <script src="https://unpkg.com/vue@3"></script>
