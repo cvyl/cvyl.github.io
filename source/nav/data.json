@@ -42,6 +42,18 @@
         "title": "Learn Next.js 中文教程",
         "desc": "页面之间导航",
         "link": "https://qufei1993.github.io/nextjs-learn-cn/chapter1"
+      },
+      {
+        "icon": "https://shadcn.dev/favicon.png",
+        "title": "ShadCN/UI",
+        "desc": "Collection of React components for building applications",
+        "link": "https://github.com/shadcn-ui/ui"
+      },
+      {
+        "icon": "https://cult-ui.dev/favicon.ico",
+        "title": "Cult-UI",
+        "desc": "React component library focused on aesthetics",
+        "link": "https://github.com/nolly-studio/cult-ui"
       }
     ]
   },
@@ -61,28 +73,10 @@
         "link": "https://djtguide.github.io/"
       },
       {
-        "icon": "https://ssl.gstatic.com/docs/documents/images/kix-favicon-2023q4.ico",
-        "title": "JP Media List",
-        "desc": "Google Docs list of beginner Japanese media",
-        "link": "https://docs.google.com/document/d/1KnyyDt7jimEz-dgeMSKymRaT2r3QKBPm9AzqZ6oUWAs/pub"
-      },
-      {
-        "icon": "https://jpdb.io/static/533228467534.png",
-        "title": "Visual Novel Difficulty List - jpdb",
-        "desc": "List of visual novels ranked by difficulty",
-        "link": "https://jpdb.io/visual-novel-difficulty-list"
-      },
-      {
-        "icon": "https://ssl.gstatic.com/docs/documents/images/kix-favicon-2023q4.ico",
-        "title": "Refold Unofficial Japanese Guide",
-        "desc": "Comprehensive guide to learning Japanese",
-        "link": "https://docs.google.com/document/u/1/d/e/2PACX-1vRTJ22UiHpPaafBlY2vNxQr1ROjq1iFp8_3rlVPYFqf3Se316Vf4Ucw2fljzDA8PPVqyMuWqf-t70s5/pub#h.wdir699q53g4"
-      },
-      {
-        "icon": "",
-        "title": "Nihongoresources",
-        "desc": "Comprehensive Japanese learning site",
-        "link": "http://redesign.nihongoresources.com/lessons?chapter=lesson_1"
+        "icon": "https://github.githubassets.com/favicon.ico",
+        "title": "Menhera-Chan Stickers",
+        "desc": "Discord bot for Menhera-Chan sticker collection",
+        "link": "https://github.com/a-wing/Menhera-chan"
       }
     ]
   },
@@ -102,6 +96,12 @@
         "link": "https://turn-me-into-a-girl.com/"
       },
       {
+        "icon": "https://github.githubassets.com/favicon.ico",
+        "title": "Awesome Transgender",
+        "desc": "Curated list of transgender resources and tools",
+        "link": "https://github.com/cvyl/awesome-transgender"
+      },
+      {
         "icon": "https://mangadex.org/favicon.svg",
         "title": "オレが私になるまで",
         "desc": "Manga about transitioning",
@@ -112,30 +112,175 @@
         "title": "TransChat",
         "desc": "Advice for transgender people",
         "link": "https://trans.chat/"
+      }
+    ]
+  },
+  {
+    "title": "开发工具 - Developer Tools",
+    "items": [
+      {
+        "icon": "https://excalidraw.com/apple-touch-icon.png",
+        "title": "Excalidraw",
+        "desc": "Sketch diagrams and wireframes",
+        "link": "https://excalidraw.com/"
       },
       {
-        "icon": "https://transfemscience.org/apple-touch-icon.png",
-        "title": "Transfeminine Science",
-        "desc": "Information on hormone therapy for transfeminine people.",
-        "link": "https://transfemscience.org/"
+        "icon": "https://code.visualstudio.com/favicon.ico",
+        "title": "Visual Studio Code",
+        "desc": "Free source-code editor made by Microsoft",
+        "link": "https://code.visualstudio.com/"
       },
       {
-        "icon": "https://styles.redditmedia.com/t5_2r4b9/styles/communityIcon_lblrccmhjnq31.png",
-        "title": "r/asktransgender",
-        "desc": "Reddit community",
-        "link": "https://www.reddit.com/r/asktransgender/"
+        "icon": "https://uptime.kuma.pet/img/icon.svg",
+        "title": "Uptime Kuma",
+        "desc": "Self-hosted monitoring tool",
+        "link": "https://uptime.kuma.pet/"
       },
       {
-        "icon": "https://2345.lgbt/favicon.png",
-        "title": "2345.LGBT",
-        "desc": "LGBTQ+ resources",
-        "link": "https://2345.lgbt/"
+        "icon": "https://github.githubassets.com/favicon.ico",
+        "title": "Discord History Tracker",
+        "desc": "Track message history for Discord channels",
+        "link": "https://github.com/chylex/Discord-History-Tracker"
       },
       {
-        "icon": "https://www.queeringthemap.com/icon.svg",
-        "title": "Queering the map",
-        "desc": "Map of LGBTQ+ experiences",
-        "link": "https://www.queeringthemap.com/"
+        "icon": "https://raw.githubusercontent.com/dunkbing/typeview/refs/heads/main/src-tauri/icons/icon.png",
+        "title": "TypeView",
+        "desc": "A minimalist typing view application",
+        "link": "https://github.com/dunkbing/typeview"
+      }
+    ]
+  },
+  {
+    "title": "机器学习 - AI Navigation, Machine Learning",
+    "items": [
+      {
+        "icon": "https://www.gstatic.com/devrel-devsite/prod/vdf5af65c45d9e2fdd493c581ff01cb1d11a21b4420a9fcc957400a26863da9d2/tensorflow/images/apple-touch-icon-180x180.png",
+        "title": "TensorFlow",
+        "desc": "An open-source machine learning framework",
+        "link": "https://www.tensorflow.org/"
+      },
+      {
+        "icon": "https://pytorch.org/favicon.ico",
+        "title": "PyTorch",
+        "desc": "An open-source machine learning library",
+        "link": "https://pytorch.org/"
+      },
+      {
+        "icon": "",
+        "title": "fast.ai",
+        "desc": "Making neural networks uncool again",
+        "link": "https://www.fast.ai/"
+      },
+      {
+        "icon": "https://www.kaggle.com/static/images/favicon.ico",
+        "title": "Kaggle",
+        "desc": "Data science competitions and datasets",
+        "link": "https://www.kaggle.com/"
+      },
+      {
+        "icon": "https://www.promptingguide.ai/144-favicon.svg",
+        "title": "Prompting Guide",
+        "desc": "A guide to using prompts for AI text generation",
+        "link": "https://www.promptingguide.ai/"
+      },
+      {
+        "icon": "https://chatgpt.com/favicon.ico",
+        "title": "ChatGPT",
+        "desc": "AI tool for helping you review code, brainstorm, and more",
+        "link": "https://chatgpt.com/"
+      }
+    ]
+  },
+  {
+    "title": "生产力工具 - Productivity Tools",
+    "items": [
+      {
+        "icon": "https://trello.com/favicon.ico",
+        "title": "Trello",
+        "desc": "Project management tool",
+        "link": "https://trello.com/"
+      },
+      {
+        "icon": "https://obsidian.md/favicon.ico",
+        "title": "Obsidian",
+        "desc": "Markdown-based knowledge management tool",
+        "link": "https://obsidian.md/"
+      },
+      {
+        "icon": "https://zotero.org/favicon.ico",
+        "title": "Zotero",
+        "desc": "Free, easy-to-use tool to help you collect, organize, cite, and share research",
+        "link": "https://www.zotero.org/"
+      },
+      {
+        "icon": "https://proton.me/favicon.ico",
+        "title": "Proton",
+        "desc": "Email, VPN, and cloud storage services with privacy focus",
+        "link": "https://proton.me/"
+      },
+      {
+        "icon": "https://raw.githubusercontent.com/amnweb/firefox-plus/main/chrome/icons/firefox-logo.svg",
+        "title": "Firefox Plus",
+        "desc": "A browser theme for an improved Firefox experience",
+        "link": "https://github.com/amnweb/firefox-plus"
+      }
+    ]
+  },
+  {
+    "title": "设计工具 - Design Tools",
+    "items": [
+      {
+        "icon": "https://static.figma.com/app/icon/1/icon-192.png",
+        "title": "Figma",
+        "desc": "Collaborative interface design tool",
+        "link": "https://www.figma.com/"
+      },
+      {
+        "icon": "https://www.canva.com/favicon.ico",
+        "title": "Canva",
+        "desc": "Online graphic design tool",
+        "link": "https://www.canva.com/"
+      },
+      {
+        "icon": "https://krita.org/wp-content/uploads/2021/05/krita-32x32.png",
+        "title": "Krita",
+        "desc": "Open-source digital painting software",
+        "link": "https://krita.org/"
+      },
+      {
+        "icon": "https://www.adobe.com/favicon.ico",
+        "title": "Adobe Creative Cloud",
+        "desc": "Suite of design software",
+        "link": "https://www.adobe.com/creativecloud.html"
+      }
+    ]
+  },
+  {
+    "title": "趣味与工具 - Fun and Utilities",
+    "items": [
+      {
+        "icon": "https://github.githubassets.com/favicon.ico",
+        "title": "Awesome Coins",
+        "desc": "A curated list of cryptocurrency and blockchain resources",
+        "link": "https://github.com/Zheaoli/awesome-coins"
+      },
+      {
+        "icon": "https://th-ch.github.io/youtube-music/img/youtube-music.svg",
+        "title": "YouTube Music",
+        "desc": "Electron-based YouTube Music desktop app",
+        "link": "https://th-ch.github.io/youtube-music/"
+      },
+      {
+        "icon": "https://github.githubassets.com/favicon.ico",
+        "title": "BlackFriday GPT Prompts",
+        "desc": "A list of prompt-based tools for GPT",
+        "link": "https://github.com/friuns2/BlackFriday-GPTs-Prompts"
+      },
+      {
+        "icon": "https://lihaoyun6.github.io/quickrecorder/images/QuickRecorder.png",
+        "title": "QuickRecorder",
+        "desc": "A Lightweight, Powerful and Open-Source screen recorder for macOS",
+        "link": "https://lihaoyun6.github.io/quickrecorder/"
       }
     ]
   }
