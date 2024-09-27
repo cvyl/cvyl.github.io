@@ -1,112 +1,140 @@
 ---
 title: "Friendships"
+description: "A dynamic page listing my friends with sections for different categories."
 comment: false
 ---
 
-# Personal friendships
+<!-- Load Vue -->
+{% raw %}
+<script src="https://unpkg.com/vue@3"></script>
 
-## [Kvazar](https://twitter.com/KvazarOverture)
+<!-- Vue App -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const app = Vue.createApp({
+    data() {
+      return {
+        friendsSections: []  // Holds the sections data
+      };
+    },
+    mounted() {
+      // Fetch the JSON data
+      fetch('./friends.json')  // Adjust the path to your JSON file
+        .then(response => response.json())
+        .then(data => {
+          this.friendsSections = data;
+        })
+        .catch(error => console.error('Error fetching friends data:', error));
+    }
+  });
 
-Good Friend from Lithuania
+  app.mount('#friends-app');
 
-## [Amadeo](#NONE)
+  // Hexo patch: Destroy app when page switched
+  const interval = setInterval(() => {
+      if (!document.getElementById('friends-app')) 
+      {
+          app.unmount();
+          clearInterval(interval);
+      }
+  }, 1000);
+});
+</script>
 
-We've been friends for over a few years, I am sorry that I haven't been talking to you as much.
+<!-- Styles for Friends Page -->
+<style>
+.friends-page {
+  max-width: 1600px;
+  margin: auto;
+  padding: 20px;
+}
 
-## [Samantha](https://steamcommunity.com/profiles/76561198073879698/)
+.friend-category {
+  margin-bottom: 40px;
+}
 
-Thank you for helping understand aspects and consequences of things in life.
+.friends-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Create dynamic grid with min and max widths */
+  gap: 20px; /* Space between items */
+}
 
-## [ida](https://steamcommunity.com/id/3ruy8374fh)
+.friend-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 10px 20px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+  height: 100%; /* Ensure equal height for all items */
+}
 
-Met you via Steam and we ended up becoming good friends, glad I found you.
+.friend-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
 
-## [Scarlett](https://github.com/Kayicide)
+.friend-item img {
+  width: 50px; /* Icon size */
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 50%; /* Make the icon circular */
+}
 
-We seem te share similar interests and talking casually is fun.
+.friend-item-title {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
 
-## [Evelyn](https://twitter.com/evelynatorpriv)
+.friend-item-desc {
+  font-size: 0.9rem;
+  color: #777;
+}
 
-You're a sweet but busy person in life.
+.friend-link {
+  color: inherit;
+  text-decoration: none;
+  display: block; /* Ensure the entire item is clickable */
+}
 
-## [steve*](https://twitter.com/TYPGHx9Or7vm8Ie)
+@media (max-width: 1200px) {
+  .friends-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Slightly smaller for medium screens */
+  }
+}
 
-Very kind person. I wish I could talk to you more often, but our timezones seperate us...
+@media (max-width: 800px) {
+  .friends-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Smaller for small screens */
+  }
+}
 
-## [A Sunset](#none)
+@media (max-width: 600px) {
+  .friends-grid {
+    grid-template-columns: 1fr; /* Stack items in one column on very small screens */
+  }
+}
+</style>
 
-We met in the NSO Discord server during my vent and we eventually became friends. But it's been radio silence ever since.
+<!-- Template for Friends -->
+<div id="friends-app" class="friends-page">
+  <div v-if="friendsSections.length === 0">Loading...</div>
+  <div v-for="section in friendsSections" :key="section.title" class="friend-category">
+    <h2>{{ section.title }}</h2>
+    <div class="friends-grid">
+      <div v-for="friend in section.items" :key="friend.title" class="friend-item">
+        <a :href="friend.link" target="_blank" class="friend-link">
+          <img v-if="friend.icon" :src="friend.icon" alt="Friend Icon" />
+          <div class="friend-item-title">{{ friend.title }}</div>
+          <div class="friend-item-desc">{{ friend.desc }}</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
-## [Lumi](https://twitter.com/IumieI)
-
-I like your humor and kindness.
-
-## [@nothingmoder](https://linktr.ee/nothingmoder)
-
-Kind woman that is my virtual grandma.
-
-## [ozoi](https://twitter.com/ozoicat)
-
-We don't talk often but you are kind and very cool.
-
-## [Anon](https://www.roblox.com/users/318134745/profile)
-
-Although I cannot remember exactly how we've met, I am glad to be friends with you and talk about things going on in life.
-
-## [@Fluoridebrain](https://twitter.com/Fluoridebrain)
-
-Skilled artist that makes cute and relatable art. Also liked the conversations we've had in the past.
-
-## [lvca](https://twitter.com/luka_is_lvka)
-
-We talk every so often, just chatting up and what's up and such. You are very kind and I think we understand eachother very well.
-
-## [Encrypted](#NONE)
-
-Glad we've become friends going all the way back to 2017(?).
-
-## [simba975](https://www.youtube.com/channel/UCan18hBBZFyxGDtpsIYy0XQ)
-
-A person to talk about various topics with.
-
-## [revive4770](https://twitter.com/revive4770)
-
-We used to talk often, but things went wrong along the way.
-
-## [Jara](https://github.com/jarad2)
-
-We seem to share a similar fate and interest in hobbies and sports.
-
-## [spooks](#none)
-
-Years ago we talked, but slowly we talked less and less.
-
-## [Kim](https://twitter.com/kimzuqu)
-
-Your server ShimaTent has been nice time. It used to be active but we all have our own responsibilities. You are very kind and understanding and you draw nice art. Can you believe it's been 3 years since I first joined?
-
-## [nya](https://twitter.com/nya_meoww)
-
-We don't talk often but I really hope you're doing better in life.
-
-## [Bezel](#none)
-
-We used to talk for a bit more than a year, but we slowly faded away from eachother due to not agreeing with eachother. Only for months later for me to do a complete 180 and agree. But I think you have a lot of personal struggles you need time for the figure out. I still love you as a friend nontheless.
-
-## [crystal](https://crystal.lgbt.sh)
-
-Kind person I found via webrings online and made first contact via a guestbook. Later we moved to emails and then Discord.
-
-# People I miss
-
-## [Ray(?)](https://twitter.com/@remivent)
-
-We used to talk about serious topics, although not much. I hope you're in a better place.
-
-*Last message: 2022-12-07*
-
-## [PumaTwins](https://reddit.com/u/pumatwins)
-
-We talked on Twitter every so often and I remember your shock when you found out our age-gap haha.
-
-*Last message: 2022-1?-??*
+{% endraw %}
