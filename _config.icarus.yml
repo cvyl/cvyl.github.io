@@ -121,7 +121,7 @@ navbar:
             url: https://github.com/sponsors/cvyl
         Ethereum:
             icon: fab fa-ethereum
-            url: https://etherscan.io/address/0x1d3553BaeB031913bE108a814FF9a6091A63107D
+            url: https://etherscan.io/address/0x3cce027258CA498cE16cB10B6F64f88643a5b7F4
 # Page footer configurations
 footer:
     copyright: 萌ICP备20244300号 #needed for launching subdomains in China
