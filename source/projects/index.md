@@ -39,10 +39,10 @@ Official homepage is at [harmony-within.us](https://harmony-within.us) soon!
 - [Organization Profile](https://github.com/harmony-within-us)
 - [HWU Discord Server](https://discord.gg/336A5VDwPu)
 
-### Harmony Within US Projects
+<!--### Harmony Within US Projects
 
 - [HRT.Info](https://hrt.info) a in-progress website that hopes to inform and provide information about HRT (Hormone Replacement Therapy). If you want to contribute, please vist the [repository](https://github.com/harmony-within-us/hrt.info). If you want to help translate the project, please visit [translate.hrt.info](https://translate.hrt.info).
-
+-->
 ## AI
 
 ### CloudFlare AI chat
