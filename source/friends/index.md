@@ -93,6 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 .friend-item-desc {
   font-size: 0.9rem;
   color: #777;
+  white-space: pre-line; /* Respect \n and put text on a new line */
 }
 
 .friend-link {
