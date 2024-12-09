@@ -81,12 +81,6 @@
                 "icon": "https://ugc.production.linktr.ee/UuhtMc7hSjW3wmiUz3i9_4gMwS4AchO8wf1u1?io=true&size=avatar-v3_0"
             },
             {
-                "title": "ozoi",
-                "link": "https://twitter.com/ozoicat",
-                "desc": "We don't talk often but you are kind and very cool.",
-                "icon": "https://pbs.twimg.com/profile_images/1835664912107859968/6L2yzMHK_400x400.jpg"
-            },
-            {
                 "title": "Anon",
                 "link": "https://www.roblox.com/users/318134745/profile",
                 "desc": "Although I cannot remember exactly how we've met, I am glad to be friends with you.",
@@ -192,6 +186,12 @@
                 "link": "https://twitter.com/Fluoridebrain",
                 "desc": "Skilled artist that makes cute and relatable art. Also liked the conversations we've had in the past. \nPossibly deceased.\nLast message: 2024-03-26",
                 "icon": "https://cdn.discordapp.com/avatars/658978957093502997/6e99d94c9bb66c4725a2cb66a70a9667?size=1024"
+            },
+            {
+                "title": "ozoi",
+                "link": "https://twitter.com/ozoicat",
+                "desc": "We don't talk often but you are kind and very cool. \n\nLast message: 2024-04-16",
+                "icon": "https://pbs.twimg.com/profile_images/1835664912107859968/6L2yzMHK_400x400.jpg"
             }
         ]
     }
