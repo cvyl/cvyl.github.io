@@ -1,15 +1,16 @@
 ---
 title: Automating Deployment for Laravel Using Deployer and GitHub Actions
-description: A small guide on setting up automated deployments for Laravel projects using Deployer and GitHub Actions, including staging and production workflows and handling post-deployment tasks like running migrations and restarting services.
+description: A small guide on setting up automated deployments for Laravel projects using Deployer and GitHub Actions, including staging and production workflows and handling post-deployment tasks like migrating and restarting services.
 category: Article
 tags: [saas, apprenticeship, programming]
 date: 2024-09-16 16:58:37
 comment: false
+toc: true
 ---
 
 ## Overview
 
-In this note, we outline how to automate the deployment process for a Laravel project using **Deployer** and **GitHub Actions**. The setup covers deploying to both **staging** and **production** environments, with different workflows for each environment. We also integrate necessary post-deployment tasks such as running migrations and restarting queues using **Supervisor**.
+In this note, we outline how to automate the deployment process for a Laravel project using **Deployer** and **GitHub Actions**. The setup covers deploying to both **staging** and **production** environments, with different workflows for each environment. We also integrate post-deployment tasks such as migrating and restarting queues using **Supervisor**.
 
 ## Prerequisites
 
@@ -23,7 +24,7 @@ Before setting up this automation, ensure the following:
 
 ### Step 1: Creating the `deploy.php` File
 
-The `deploy.php` file is essential for configuring Deployer. It defines the repository, shared directories, writable directories, and host settings for both staging and production environments. Below is an example.
+The `deploy.php` file is essential for configuring Deployer. It defines the repository, shared directories, writable directories, and host settings for staging and production environments. Below is an example.
 
 ```php
 <?php
