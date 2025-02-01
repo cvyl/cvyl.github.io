@@ -38,7 +38,7 @@ comment: false
         color:rgb(134, 97, 135) !important;
     }
     .post .reply::before {
-        background: rgb(171, 99, 173) !important;
+        border: 2px solid rgb(171, 99, 173) !important;
     }
     .post a {
         color:rgb(134, 97, 135) !important;
