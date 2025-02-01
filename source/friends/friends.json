@@ -15,6 +15,12 @@
                 "icon": "https://pbs.twimg.com/profile_images/1842292315853119488/v-GPj4am_400x400.jpg"
             },
             {
+                "title": "Ashley",
+                "link": "https://catmaid.coffee",
+                "desc": "Met eachother via a Minecraft discord and we've been working on a project together.",
+                "icon": "https://catmaid.coffee/assets/images/image01.jpg?v=da6a878d"
+            },
+            {
                 "title": "Samantha",
                 "link": "https://steamcommunity.com/profiles/76561198073879698/",
                 "desc": "Thank you for helping understand aspects and consequences of things in life.",
@@ -178,8 +184,14 @@
             {
                 "title": "@Fluoridebrain",
                 "link": "https://twitter.com/Fluoridebrain",
-                "desc": "Skilled artist that makes cute and relatable art. Also liked the conversations we've had in the past. \nPossibly deceased.\nLast message: 2024-03-26",
+                "desc": "Skilled artist that makes cute and relatable art. Also liked the conversations we've had in the past. \nLikely deceased.\nLast message: 2024-03-26",
                 "icon": "https://cdn.discordapp.com/avatars/658978957093502997/6e99d94c9bb66c4725a2cb66a70a9667?size=1024"
+            },
+            {
+                "title": "LOCKHEEDLESBIAN",
+                "link": "https://twitter.com/LOCKHEEDLESBIAN",
+                "desc": "We used to talk about being transgender, christianity, and more. \nLikely deceased.\nLast message: 2022-??-??",
+                "icon": ""
             },
             {
                 "title": "ozoi",

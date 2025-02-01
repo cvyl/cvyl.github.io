@@ -31,6 +31,12 @@ comment: false
     .tg-blog {
           color: #755c76 !important;
     }
+    .reply-text {
+        color:rgb(223, 156, 226) !important;
+    }
+    .reply-to {
+        color:rgb(134, 97, 135) !important;
+    }
 </style>
 
 <!-- Template setup (Paste your data url here) -->
