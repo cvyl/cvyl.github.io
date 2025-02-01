@@ -37,7 +37,7 @@ comment: false
     .reply-to {
         color:rgb(134, 97, 135) !important;
     }
-    .reply {
+    .post .reply::before {
         background: rgb(171, 99, 173) !important;
     }
     .post a {
