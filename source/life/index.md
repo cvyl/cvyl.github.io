@@ -37,6 +37,9 @@ comment: false
     .reply-to {
         color:rgb(134, 97, 135) !important;
     }
+    .reply {
+        background: rgb(171, 99, 173) !important;
+    }
 </style>
 
 <!-- Template setup (Paste your data url here) -->
