@@ -43,6 +43,9 @@ comment: false
     .post a {
         color:rgb(134, 97, 135) !important;
     }
+    .detail .file-detail {
+        color:rgb(223, 156, 226) !important;
+    }
 </style>
 
 <!-- Template setup (Paste your data url here) -->
