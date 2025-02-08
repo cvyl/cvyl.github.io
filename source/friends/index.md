@@ -129,11 +129,11 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="friends-grid">
       <div v-for="friend in section.items" :key="friend.title" class="friend-item">
         <a :href="friend.link" target="_blank" class="friend-link">
-          <img v-if="friend.icon" :src="friend.icon" alt="Friend Icon" />
-          <div class="friend-item-title">{{ friend.title }}</div>
-          <div class="friend-item-desc">{{ friend.desc }}</div>
-        </a>
-      </div>
+              <img :src="friend.icon || 'gallery/noimage.png'" alt="Friend Icon" />
+              <div class="friend-item-title">{{ friend.title }}</div>
+              <div class="friend-item-desc">{{ friend.desc }}</div>
+            </a>
+        </div>
     </div>
   </div>
 </div>
