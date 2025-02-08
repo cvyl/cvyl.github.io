@@ -1,8 +1,12 @@
 ---
 title: "Friendships"
-description: "A dynamic page listing my friends with sections for different categories."
+description: "A dynamic page listing my friends with different categories."
 comment: false
 ---
+
+<!-- TODO:
+  Download all profile pictures into /gallery  
+-->
 
 <!-- Load Vue -->
 {% raw %}
@@ -14,23 +18,50 @@ document.addEventListener('DOMContentLoaded', () => {
   const app = Vue.createApp({
     data() {
       return {
-        friendsSections: []  // Holds the sections data
+        friendsSections: [],
+        loading: true
       };
     },
+    methods: {
+      async checkImage(url) {
+        try {
+          const response = await fetch(url, { method: 'HEAD' });
+          if (!response.ok) throw new Error('Image not found');
+          return url;
+        } catch {
+          return 'gallery/noimage.png';
+        }
+      },
+      async processFriendsData(data) {
+        this.friendsSections = data.map(section => ({
+          ...section,
+          items: section.items.map(friend => ({
+            ...friend,
+            imageLoaded: false,
+            icon: friend.icon || 'gallery/noimage.png'
+          }))
+        }));
+        this.loading = false;
+        
+        for (let section of this.friendsSections) {
+          for (let friend of section.items) {
+            const validIcon = await this.checkImage(friend.icon);
+            friend.icon = validIcon;
+            friend.imageLoaded = true;
+          }
+        }
+      }
+    },
     mounted() {
-      // Fetch the JSON data
-      fetch('./friends.json')  // Adjust the path to your JSON file
+      fetch('./friends.json')
         .then(response => response.json())
-        .then(data => {
-          this.friendsSections = data;
-        })
+        .then(data => this.processFriendsData(data))
         .catch(error => console.error('Error fetching friends data:', error));
     }
   });
 
   app.mount('#friends-app');
 
-  // Hexo patch: Destroy app when page switched
   const interval = setInterval(() => {
       if (!document.getElementById('friends-app')) 
       {
@@ -55,8 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 .friends-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Create dynamic grid with min and max widths */
-  gap: 20px; /* Space between items */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
 }
 
 .friend-item {
@@ -69,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-align: center;
-  height: 100%; /* Ensure equal height for all items */
+  height: 100%;
 }
 
 .friend-item:hover {
@@ -78,10 +109,25 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 .friend-item img {
-  width: 50px; /* Icon size */
+  width: 50px;
   height: 50px;
   margin-bottom: 10px;
-  border-radius: 50%; /* Make the icon circular */
+  border-radius: 50%;
+  transition: opacity 0.3s ease;
+}
+
+.friend-item .skeleton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
 
 .friend-item-title {
@@ -93,47 +139,47 @@ document.addEventListener('DOMContentLoaded', () => {
 .friend-item-desc {
   font-size: 0.9rem;
   color: #777;
-  white-space: pre-line; /* Respect \n and put text on a new line */
+  white-space: pre-line;
 }
 
 .friend-link {
   color: inherit;
   text-decoration: none;
-  display: block; /* Ensure the entire item is clickable */
+  display: block;
 }
 
 @media (max-width: 1200px) {
   .friends-grid {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Slightly smaller for medium screens */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 }
 
 @media (max-width: 800px) {
   .friends-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Smaller for small screens */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
 
 @media (max-width: 600px) {
   .friends-grid {
-    grid-template-columns: 1fr; /* Stack items in one column on very small screens */
+    grid-template-columns: 1fr;
   }
 }
 </style>
 
-<!-- Template for Friends -->
 <div id="friends-app" class="friends-page">
-  <div v-if="friendsSections.length === 0">Loading...</div>
-  <div v-for="section in friendsSections" :key="section.title" class="friend-category">
+  <div v-if="loading">Loading...</div>
+  <div v-else v-for="section in friendsSections" :key="section.title" class="friend-category">
     <h2>{{ section.title }}</h2>
     <div class="friends-grid">
       <div v-for="friend in section.items" :key="friend.title" class="friend-item">
         <a :href="friend.link" target="_blank" class="friend-link">
-              <img :src="friend.icon || 'gallery/noimage.png'" alt="Friend Icon" />
-              <div class="friend-item-title">{{ friend.title }}</div>
-              <div class="friend-item-desc">{{ friend.desc }}</div>
-            </a>
-        </div>
+          <div v-if="!friend.imageLoaded" class="skeleton"></div>
+          <img v-else :src="friend.icon" alt="Friend Icon" />
+          <div class="friend-item-title">{{ friend.title }}</div>
+          <div class="friend-item-desc">{{ friend.desc }}</div>
+        </a>
+      </div>
     </div>
   </div>
 </div>
