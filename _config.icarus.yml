@@ -238,7 +238,7 @@ widgets:
            #     url: https://dribbble.com
             Telegram:
                 icon: fab fa-telegram
-                url: https://t.me/menhera7
+                url: https://t.me/malehera
             Life RSS:
                 icon: fas fa-rss
                 url: https://cvyl.me/blog-feed/exports/menhera7/atom.xml

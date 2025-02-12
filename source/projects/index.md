@@ -1,3 +1,4 @@
+<!-- Todo, make this prettier and add recent projects -->
 # My Projects
 
 ## LGBT.sh Subdomain Registry
