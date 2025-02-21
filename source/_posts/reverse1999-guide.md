@@ -2,7 +2,7 @@
 title: "The Comprehensive Narrative of Reverse: 1999: A Temporal Odyssey Through Conflict and Survival"
 date: "2025-02-21T03:30:54+01:00"
 draft: false
-tags: [Reverse1999, Lore, Timeline, Theory, Explanation]
+tags: [Reverse1999, Lore, Timeline, Theory, Explanation, Philosophy]
 description: "An in-depth exploration of Reverse: 1999's intricate timeline, factional conflict, and the philosophical puzzles behind the mysterious Storm and temporal reversals."
 cover: "/gallery/re1999.jpg"
 categories: Article
