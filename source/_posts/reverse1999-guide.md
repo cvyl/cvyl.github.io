@@ -9,37 +9,32 @@ categories: Article
 comment: false
 ---
 
-# The Comprehensive Narrative of Reverse: 1999
-
----
-
 > **NOTE**: This is based on all sources and my own experience. It might not be up to date.
 
 ## Table of Contents
 
-- [The Comprehensive Narrative of Reverse: 1999](#the-comprehensive-narrative-of-reverse-1999)
-  - [Table of Contents](#table-of-contents)
-  - [1. Introduction](#1-introduction)
-  - [2. The Storm and Its Temporal Mechanics](#2-the-storm-and-its-temporal-mechanics)
-    - [2.1 Origins and Effects](#21-origins-and-effects)
-    - [2.2 Timeline of Major Storms](#22-timeline-of-major-storms)
-  - [3. Key Factions](#3-key-factions)
-    - [3.1 St. Pavlov Foundation](#31-st-pavlov-foundation)
-    - [3.2 Manus Vindictae](#32-manus-vindictae)
-  - [4. Vertin: The Immune Timekeeper](#4-vertin-the-immune-timekeeper)
-  - [5. Chapter Highlights](#5-chapter-highlights)
-    - [5.1 Prologue (Chapter 0): 1966 – Pirates and Peril](#51-prologue-chapter-0-1966--pirates-and-peril)
-    - [5.2 Chapter 1 \& 2: 1929 → 1913 – Jazz Age Turmoil](#52-chapter-1--2-1929--1913--jazz-age-turmoil)
-    - [5.3 Chapter 3 \& Interlude: Flashbacks to 1987–1976](#53-chapter-3--interlude-flashbacks-to-19871976)
-    - [5.4 Chapter 4 \& 5: 1913 → 1914 – Aegean Mysteries](#54-chapter-4--5-1913--1914--aegean-mysteries)
-  - [6. Themes and Symbolism](#6-themes-and-symbolism)
-    - [6.1 Identity and Discrimination](#61-identity-and-discrimination)
-    - [6.2 Temporal Fragmentation and Trauma](#62-temporal-fragmentation-and-trauma)
-    - [6.3 Existential Paradoxes](#63-existential-paradoxes)
-  - [7. Conclusion: A Storm Without End](#7-conclusion-a-storm-without-end)
-  - [8. Community Theories \& Extended Timeline](#8-community-theories--extended-timeline)
-  - [9. Open Questions and Theoretical Speculations](#9-open-questions-and-theoretical-speculations)
-  - [10. Sources](#10-sources)
+- [Table of Contents](#table-of-contents)
+- [1. Introduction](#1-introduction)
+- [2. The Storm and Its Temporal Mechanics](#2-the-storm-and-its-temporal-mechanics)
+  - [2.1 Origins and Effects](#21-origins-and-effects)
+  - [2.2 Timeline of Major Storms](#22-timeline-of-major-storms)
+- [3. Key Factions](#3-key-factions)
+  - [3.1 St. Pavlov Foundation](#31-st-pavlov-foundation)
+  - [3.2 Manus Vindictae](#32-manus-vindictae)
+- [4. Vertin: The Immune Timekeeper](#4-vertin-the-immune-timekeeper)
+- [5. Chapter Highlights](#5-chapter-highlights)
+  - [5.1 Prologue (Chapter 0): 1966 – Pirates and Peril](#51-prologue-chapter-0-1966--pirates-and-peril)
+  - [5.2 Chapter 1 \& 2: 1929 → 1913 – Jazz Age Turmoil](#52-chapter-1--2-1929--1913--jazz-age-turmoil)
+  - [5.3 Chapter 3 \& Interlude: Flashbacks to 1987–1976](#53-chapter-3--interlude-flashbacks-to-19871976)
+  - [5.4 Chapter 4 \& 5: 1913 → 1914 – Aegean Mysteries](#54-chapter-4--5-1913--1914--aegean-mysteries)
+- [6. Themes and Symbolism](#6-themes-and-symbolism)
+  - [6.1 Identity and Discrimination](#61-identity-and-discrimination)
+  - [6.2 Temporal Fragmentation and Trauma](#62-temporal-fragmentation-and-trauma)
+  - [6.3 Existential Paradoxes](#63-existential-paradoxes)
+- [7. Conclusion: A Storm Without End](#7-conclusion-a-storm-without-end)
+- [8. Community Theories \& Extended Timeline](#8-community-theories--extended-timeline)
+- [9. Open Questions and Theoretical Speculations](#9-open-questions-and-theoretical-speculations)
+- [10. Sources](#10-sources)
 
 ## 1. Introduction
 
