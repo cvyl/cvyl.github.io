@@ -9,7 +9,7 @@ categories: Article
 comment: false
 ---
 
-> **NOTE**: This is based on all sources and my own experience. It might not be up to date.
+> **NOTE**: This is based on all sources and my own experience playing Reverse: 1999. It might not be up to date.
 
 ## Table of Contents
 
