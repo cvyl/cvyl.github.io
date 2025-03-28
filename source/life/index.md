@@ -14,38 +14,90 @@ comment: false
 
 <!-- Styles & Patches -->
 <style>
-    #tg-blog-app { font-family: Avenir, Helvetica, Arial, sans-serif }
+/* Base fonts & overflow fixes */
+#tg-blog-app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+#tg-blog-app img {
+  max-width: unset;
+}
+.container,
+body {
+  overflow-x: unset !important;
+}
 
-    /* Icalm Fix: Override img max-width: 100% set in layout.styl */
-    #tg-blog-app img { max-width: unset; }
+/* Properly scoped theming */
+.tgb-card {
+  background-color: #fff0ff !important;
+  color: #755c76 !important;
+}
 
-    /* Icalm Fix: overflow-x: hidden breaks infinite scroll */
-    .container { overflow-x: unset !important; }
-    body { overflow-x: unset !important; }
-    .post, .tgb-card, .search {
-          background: #fff0ff !important;
-    }
-    .id, .date, .search, input, ::placeholder {
-          color: #f7bdeb !important;
-    }
-    .tg-blog {
-          color: #755c76 !important;
-    }
-    .reply-text {
-        color:rgb(223, 156, 226) !important;
-    }
-    .reply-to {
-        color:rgb(134, 97, 135) !important;
-    }
-    .post .reply::before {
-        border: 2px solid rgb(171, 99, 173) !important;
-    }
-    .post a {
-        color:rgb(134, 97, 135) !important;
-    }
-    .detail .file-detail {
-        color:rgb(223, 156, 226) !important;
-    }
+.search {
+  background-color: #fff0ff !important;
+  color: #f7bdeb !important;
+}
+
+.tgb-card .id,
+.tgb-card .date,
+.search input,
+.search ::placeholder {
+  color: #f7bdeb !important;
+}
+
+.tgb-card .info *,
+.tgb-card .reply .mtext {
+  color: #f7bdeb !important;
+}
+
+.tgb-card .reply::before {
+  border: 2px solid rgb(171, 99, 173) !important;
+}
+
+.tgb-card .forward,
+.tgb-card .forward a,
+.tgb-card .reply-to {
+  color: rgb(134, 97, 135) !important;
+}
+
+.tgb-card .text a {
+  position: relative;
+  box-shadow: inset 0 -0.1666666667em 0 0 #fff0ff, inset 0 -0.3333333333em 0 0 #f7bdeb;
+  color: rgb(134, 97, 135) !important;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.tgb-card .text a:hover {
+  color: rgba(134, 97, 135, 0.8) !important;
+  box-shadow: unset;
+}
+
+.tgb-card .text a::after {
+  content: var(--href);
+  left: 50%;
+  position: absolute;
+  min-width: fit-content;
+  width: 200px;
+  max-width: max-content;
+  border-radius: 15px;
+  background-color: rgba(171, 99, 173, 0.85);
+  backdrop-filter: blur(5px);
+  padding: 2px 7px;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+  box-shadow: none;
+  color: #fff0ff;
+  font-size: smaller;
+  line-height: 24px;
+  word-break: break-word;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.tgb-card .text a:hover::after {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+}
 </style>
 
 <!-- Template setup (Paste your data url here) -->
@@ -60,7 +112,7 @@ app.mount('#tg-blog-app')
 
 // Hexo patch: Destroy app when page switched
 const interval = setInterval(() => {
-    if (!document.getElementById('tg-blog-app')) 
+    if (!document.getElementById('tg-blog-app'))
     {
         app.unmount()
         clearInterval(interval)

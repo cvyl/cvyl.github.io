@@ -1,57 +1,125 @@
-<!-- Todo, make this prettier and add recent projects -->
-# My Projects
+---
+title: Projects Page
+description: A list of some of the projects I have worked on.
+comment: false
+---
 
-## LGBT.sh Subdomain Registry
+{% raw %}
+<script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
 
-### LGBT.sh organization
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const app = Vue.createApp({
+    data() {
+      return {
+        projects: []
+      };
+    },
+    mounted() {
+      fetch('./projects.json')
+        .then(res => res.json())
+        .then(data => {
+          this.projects = data;
+        })
+        .catch(err => console.error('Failed to load projects:', err));
+    }
+  });
 
-Free lgbt.sh sub-domain registration service
+  app.mount('#projects-app');
 
-- [Organization Profile](https://github.com/lgbt-sh)
+  const interval = setInterval(() => {
+    if (!document.getElementById('projects-app')) {
+      app.unmount();
+      clearInterval(interval);
+    }
+  }, 1000);
+});
+</script>
 
-### Get a free lgbt.sh subdomain
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
 
-- [Homepage](https://lgbt.sh)
-- [Register form](https://register.lgbt.sh)
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+}
 
-## Maid.JS
+.project-card:hover {
+  transform: translateY(-4px);
+}
 
-### Maid.JS organization
+.project-banner {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
 
-Small housekeeping utilities
+.project-content {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-- [Organization Profile](https://github.com/MaidJS)
+.project-title {
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
 
-### Maid.JS Links
+.project-desc {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
 
-- [Homepage](https://maid.js.org)
-- [NPM](https://www.npmjs.com/package/@maidjs/maid-js)
-- [Repository](https://github.com/maidjs/maid.js)
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
 
-## Harmony Within Us
+.project-tags span {
+  font-size: 0.7rem;
+  padding: 3px 6px;
+  border-radius: 4px;
+  background: #f0f0f0;
+  color: #333;
+}
+</style>
 
-### HWU (Harmony Within Us) organization
-
-*Fostering serenity and connection, a dedicated space for transgender individuals navigating life.*
-
-Official homepage is at [harmony-within.us](https://harmony-within.us) soon!
-
-- [Sponsor HWU](https://github.com/sponsors/harmony-within-us)
-- [Organization Profile](https://github.com/harmony-within-us)
-- [HWU Discord Server](https://discord.gg/336A5VDwPu)
-
-<!--### Harmony Within US Projects
-
-- [HRT.Info](https://hrt.info) a in-progress website that hopes to inform and provide information about HRT (Hormone Replacement Therapy). If you want to contribute, please vist the [repository](https://github.com/harmony-within-us/hrt.info). If you want to help translate the project, please visit [translate.hrt.info](https://translate.hrt.info).
--->
-## AI
-
-### CloudFlare AI chat
-
-A small project using CloudFlare's new AI workers. A proof on concept demo can be found at [ai.cvyl.me](https://ai.cvyl.me).
-
-## Website Projects
-
-### Terminal Simulator
-
-A simple terminal simulator that replicates the DOS/UNIX style terminal with commands and a boot-up screen. Visit it at [cvyl.me/terminal](https://cvyl.me/terminal).
+<div id="projects-app" class="projects-page">
+  <h1>My Projects</h1>
+  <div v-if="projects.length === 0">Loading...</div>
+  <div class="project-grid">
+    <div v-for="project in projects" :key="project.id" class="project-card">
+      <a :href="project.link" target="_blank">
+        <img v-if="project.cover" :src="project.cover" :alt="project.title" class="project-banner" />
+      </a>
+      <div class="project-content">
+        <div class="project-title">
+          <a :href="project.link" target="_blank">{{ project.title }}</a>
+        </div>
+        <div class="project-desc">{{ project.description }}</div>
+        <div class="project-tags">
+          <span v-for="tag in project.tags" :key="tag">#{{ tag }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endraw %}

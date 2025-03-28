@@ -8,11 +8,9 @@ comment: false
   Download all profile pictures into /gallery  
 -->
 
-<!-- Load Vue -->
 {% raw %}
-<script src="https://unpkg.com/vue@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
 
-<!-- Vue App -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const app = Vue.createApp({

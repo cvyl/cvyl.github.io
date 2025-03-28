@@ -4,6 +4,7 @@ version: 5.1.0
 variant: default
 # Path or URL to the website's logo
 logo: /gallery/sakura.svg
+#logo: /gallery/dark.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -19,7 +20,7 @@ head:
         # The start URL of the web application
         start_url: https://cvyl.me/
         # The default theme color for the application
-        theme_color:
+        theme_color: '#EDF8F6'
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
         background_color: 
@@ -119,14 +120,14 @@ navbar:
         GitHub Sponsor:
             icon: fab fa-github
             url: https://github.com/sponsors/cvyl
-        Ethereum:
-            icon: fab fa-ethereum
-            url: https://etherscan.io/address/cutefag.eth
+        #Ethereum:
+        #    icon: fab fa-ethereum
+        #    url: https://etherscan.io/address/cutefag.eth
 # Page footer configurations
 footer:
-    copyright: 萌ICP备20244300号 #needed for launching subdomains in China
+   # copyright: 萌ICP备20244300号 #needed for launching subdomains in China
     # Copyright text
-    #copyright: © 2024
+    copyright: © 2024
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -138,9 +139,9 @@ footer:
         GitHub:
             icon: fab fa-github
             url: https://github.com/cyvl
-        萌ICP备20244300号:
-            icon: fas fa-magnifying-glass
-            url: https://icp.gov.moe/?keyword=20244300
+        #萌ICP备20244300号:
+        #    icon: fas fa-magnifying-glass
+        #    url: https://icp.gov.moe/?keyword=20244300
 # Article related configurations
 article:
     # Code highlight settings

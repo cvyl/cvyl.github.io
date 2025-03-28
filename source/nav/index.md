@@ -6,7 +6,7 @@ comment: false
 
 <!-- Load Vue and Navigation Data -->
 {% raw %}
-<script src="https://unpkg.com/vue@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
 
 <!-- Vue App -->
 <script>
