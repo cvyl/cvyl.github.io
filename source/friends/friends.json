@@ -33,12 +33,6 @@
                 "icon": "https://avatars.akamai.steamstatic.com/0b9414037e12ac60ffba2a7e1859d01c819cf9a4_full.jpg"
             },
             {
-                "title": "Ara",
-                "link": "https://gqt.fr",
-                "desc": "I am glad we are able to relate to eachother and share interests.",
-                "icon": "gallery/ara.jpg"
-            },
-            {
                 "title": "crystal",
                 "link": "https://crystal.lgbt.sh",
                 "desc": "Kind person I found via webrings online and made first contact via a guestbook.",
@@ -175,10 +169,16 @@
     {
         "title": "People I Miss",
         "items": [
+                        {
+                "title": "Ara",
+                "link": "https://gqt.fr",
+                "desc": "I am glad we were able to relate to eachother and share interests. I am missing you a lot \n\n Departed/Deceased \nLast message: 2025-06-22",
+                "icon": "gallery/ara.jpg"
+            },
             {
                 "title": "Ray(?)",
                 "link": "https://twitter.com/@remivent",
-                "desc": "We used to talk about serious topics. I hope you're in a better place. \nPossibly deceased.\nLast message: 2022-12-07",
+                "desc": "We used to talk about serious topics. I hope you're in a better place. \n\nPossibly deceased.\nLast message: 2022-12-07",
                 "icon": ""
             },
             {
@@ -190,13 +190,13 @@
             {
                 "title": "@Fluoridebrain",
                 "link": "https://twitter.com/Fluoridebrain",
-                "desc": "Skilled artist that makes cute and relatable art. Also liked the conversations we've had in the past. \nLikely deceased.\nLast message: 2024-03-26",
+                "desc": "Skilled artist that makes cute and relatable art. Also liked the conversations we've had in the past. \n\nLikely deceased.\nLast message: 2024-03-26",
                 "icon": "https://cdn.discordapp.com/avatars/658978957093502997/6e99d94c9bb66c4725a2cb66a70a9667?size=1024"
             },
             {
                 "title": "LOCKHEEDLESBIAN",
                 "link": "https://twitter.com/LOCKHEEDLESBIAN",
-                "desc": "We used to talk about being transgender, christianity, and more. \nLikely deceased.\nLast message: 2022-??-??",
+                "desc": "We used to talk about being transgender, christianity, and more. \n\nLikely deceased.\nLast message: 2022-??-??",
                 "icon": ""
             },
             {
